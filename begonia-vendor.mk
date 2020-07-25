@@ -46,6 +46,8 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so \
     vendor/redmi/begonia/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so \
     vendor/redmi/begonia/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
+    vendor/redmi/begonia/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
+    vendor/redmi/begonia/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
     vendor/redmi/begonia/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
     vendor/redmi/begonia/proprietary/vendor/bin/atci_service:$(TARGET_COPY_OUT_VENDOR)/bin/atci_service \
     vendor/redmi/begonia/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
@@ -2136,6 +2138,7 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 
 PRODUCT_PACKAGES += \
+    EngineerMode \
     ImsService \
     SoterService \
     HotwordEnrollmentOKGoogleCORTEXM4 \
